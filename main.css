@@ -1,0 +1,146 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: cursive;
+    font-size: 13pt;
+    padding: 10px;
+    margin: 0;
+    background-color: cornsilk;
+}
+nav {
+    padding: 50px 0;
+    min-width: 500px; 
+}
+nav ul {
+    background: linear-gradient(90deg, 
+     rgba(255, 255, 255, 0) 0%, 
+     rgba(255, 255, 255, 0.2) 25%, 
+     rgba(255, 255, 255, 0.2) 75%, 
+     rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+     inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    padding: 10px; 
+    color: rgb(177, 123, 123);
+    font-size: 18px;
+    font-family: Arial;
+    text-decoration: none;
+    display: block;
+ }
+h1 {
+    font-size: 15pt;
+    color: rgb(241, 225, 161);
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    border: 4px dashed  rgb(241, 225, 161);
+    padding: 10px;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+.img-circle {
+    border: 50px solid cornsilk;
+    border-radius: 20%;
+}
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+#header {
+    background-color: cornsilk;
+    background-size: cover;
+}
+#header img {
+    display: block;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+}
+h2 {
+    font-size: 15pt;
+    color: rgb(177, 123, 123);
+    padding-top: 0px;
+    margin: 0;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.quote {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
+}
+form {
+    text-align: center;
+    margin-top: 0;
+}
+.submit {
+    background-color: cornsilk;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #2c2929;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: #43a09d;
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: cornsilk;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+.face {
+    transform: scale(0.4);
+    margin: 0 auto;
+    display: block;
+    margin-top: -35px;
+    margin-bottom: -25px;
+}
+#contacts img {
+    height: 70px;
+    width: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+    text-align: center;
+}
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
+}
